@@ -13,6 +13,6 @@ module.exports = async function (context, req) {
     */
 
     context.res.json({
-        text: "Hello from the API. Environment: " + ProcessingInstruction.env.EnvironmentType
+        text: "Hello from the API. Environment: " + process.env.EnvironmentType
     });
 }
